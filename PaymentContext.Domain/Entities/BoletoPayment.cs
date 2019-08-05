@@ -14,5 +14,8 @@ namespace PaymentContext.Domain.Entities
 
         public string BarCode { get; private set; }
         public string BoletoNumer { get; private set; }
+
+        public string Description { get; set; }
+
     }
 }
